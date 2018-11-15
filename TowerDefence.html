@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Tower Defence </title>
+  </head>
+  <body>
+    <div onmousemove  = "player.DragTower(event); player.CheckForPossiblePosition(event); player.MouseOverOption(event)"  
+         onclick = "player.TakeTower(event); player.PlaceTower(event); player.ClickOnOption()">
+      <canvas id = "map" width = "600" height = "600"></canvas>
+    </div>
+    <script src = "ClassPath.js"></script>
+    <script src = "ClassPlayer.js"></script>
+    <script src = "ClassBase.js"></script>
+    <script src = "ClassTower.js"></script>
+    <script src = "ClassEnemy.js"></script>
+    <script src = "ClassBullet.js"></script>
+    <script src = "ClassOption.js"></script>
+    <script src = "EnemyFunctions.js"></script>
+    <script src = "BulletFunctions.js"></script>
+    <script src = "TowerFunctions.js"></script>
+    <script src = "PlayerMovingTowers.js"></script>
+    <script src = "PlayerChoosingOption.js"></script>
+    <script src = "PathFunctions.js"></script>
+    <script src = "GameOutput.js"></script>
+    <script src = "GameMenus.js"></script>
+    <script src = "Source.js"></script>
+  </body>
+</html>
