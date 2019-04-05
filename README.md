@@ -1,5 +1,5 @@
 # TowerDefence
-Tower deffence game
+Tower defence game
 
 The path on which enemies walk is randomly generated in the beginning of the game. \
 Player's starter gold is 500 and tower cost is 100. With every next wave the enemy's life and speed increases. \
