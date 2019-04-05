@@ -1,4 +1,4 @@
-# TowerDeffence
+# TowerDefence
 Tower deffence game
 
 The path on which enemies walk is randomly generated in the beginning of the game. \
